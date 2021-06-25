@@ -5,11 +5,11 @@ description: LG Open Source Guide English version
 
 remote_theme: LGE-OSS/jekyll-rtd-theme
 
+top_link: "https://oss.lge.com/guide-ko"
+top_link_word: "Korean"
+
 show_sorted: false
 addons_branch: true
-
-copyright:
-  revision: true
 
 google:
   gtag: UA-181757464-2 

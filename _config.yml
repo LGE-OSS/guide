@@ -1,0 +1,40 @@
+base_url: /guide
+title: LG Open Source Guide
+lang: en
+description: LG Open Source Guide English version
+
+remote_theme: LGE-OSS/jekyll-rtd-theme
+
+show_sorted: false
+addons_branch: true
+
+copyright:
+  revision: true
+
+google:
+  gtag: 
+
+addons:
+  - github
+  - i18n
+  - plugins
+  - analytics
+
+
+# sort
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
+# optional plugins
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions

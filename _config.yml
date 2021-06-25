@@ -12,7 +12,7 @@ copyright:
   revision: true
 
 google:
-  gtag: 
+  gtag: UA-181757464-2 
 
 addons:
   - github

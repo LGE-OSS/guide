@@ -29,7 +29,7 @@ sort: 1
 
 <br>
 
-## <a name="rule"></a> Copyright and license writing rules in source code
+## <a name="rule"></a> Note. Copyright and license writing rules in source code
    
 > In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 

@@ -28,7 +28,9 @@ sort: 1
 ```
 
 <a name="rule"></a> <details><summary>Note. Copyright and license writing rules in source code</summary>
+
 ## Copyright and license writing rules in source code
+
 > In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 
 To ensure proper copyright and license writing in the source code, the following three rules must be observed.    

@@ -10,7 +10,7 @@ sort: 1
 2. The SW development team determines how to notify OSS when using open source in software for distribution.
    <br>
 
-3. The SW development team complies with copyright and license writing rules in source code.
+3. The SW development team complies with [copyright and license writing rules in source code](#rule).
    <br>
 
 4. The SW development team and the team in charge of OSC identify open source and license through open source analysis.
@@ -29,9 +29,7 @@ sort: 1
 
 <br>
 
-<details> <summary> Note. Copyright and license writing rules in source code </summary>
-
-## Copyright and license writing rules in source code
+## <a name="rule"></a> Copyright and license writing rules in source code
    
 > In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 
@@ -109,7 +107,6 @@ Open Source Software Package:
 2. Create a directory named LICENSES in the top directory of your project, and include the license text file of the license included in the project.
     - If the project includes open source software under multiple licenses, include all of license text files.
 
-</details>
 
 <br>
 <br>

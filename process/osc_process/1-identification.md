@@ -53,7 +53,7 @@ SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]
     ```
     SPDX-License-Identifier: Apache-2.0
     ```
-- ex 2. LGE Proprietary License    
+- ex 2. LGE Proprietary License     
     ```
     /*    
    * Copyright (c) 2020 LG Electronics Inc.    

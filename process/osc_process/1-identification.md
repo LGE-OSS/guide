@@ -37,6 +37,7 @@ To ensure proper copyright and license writing in the source code, the following
 
 ### 1. Write the copyright and license on each file
 Software developers write copyrights and licenses according to the rules to be followed on a case-by-case basis as follows:
+
 | No  | Case | Rule |
 | ------------- | ------------- | ------------- |
 | 1 | In case of software developed by LGE | Write the copyright and license on each file. | 
@@ -44,11 +45,18 @@ Software developers write copyrights and licenses according to the rules to be f
 | 3 | In case of including only certain files or functions in LGE software from open source | If the file already has the proper copyright and license information, do not modify/delete it. <br><br> If the file is missing copyright and license information, or if you copy only certain functions, write the copyright and license specified in the original open source in the file included in LGE software. |  
 
 - 💁 **How to write license**    
-    SPDX-License-Identifier: (SPDX License Identifier)     
-    ex.
+    SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]     
+    ex 1. Apche-2.0
     ```
     SPDX-License-Identifier: Apache-2.0
     ```
+    ex 2. LGE Proprietary License
+    ```
+    /*
+   * Copyright (c) 2020 LG Electronics Inc.
+   * SPDX-License-Identifier: LicenseRef-LGE-Proprietary
+   */
+   ```
 
 ### 2. Add Open Source Software Package information file
 ⭐ This rule only applies if Open Source Software Package is included.

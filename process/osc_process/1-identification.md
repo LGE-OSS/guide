@@ -27,9 +27,9 @@ sort: 1
     - We recommend [`FOSSLight Dependency Scanner`](https://github.com/fosslight/fosslight_dependency_scanner) tool for more efficient analyzing dependency.
 ```
 
-<a name="rule"></a> <details><summary>Note. Copyright and license writing rules in source code</summary>
+<br>
 
-## Copyright and license writing rules in source code
+<a name="rule"></a> <details><summary>Note. Copyright and license writing rules in source code</summary>
 
 > In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 
@@ -47,13 +47,13 @@ Software developers write copyrights and licenses according to the rules to be f
 | 2 | In case of including open source in LGE software |Do not modify/delete copyright and license information in the original open source.| 
 | 3 | In case of including only certain files or functions in LGE software from open source | If the file already has the proper copyright and license information, do not modify/delete it. <br><br> If the file is missing copyright and license information, or if you copy only certain functions, write the copyright and license specified in the original open source in the file included in LGE software. |  
 
-- 💁 **How to write license**    
-    SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]     
-    ex 1. Apche-2.0
+💁 **How to write license**    
+SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]     
+- ex 1. Apche-2.0
     ```
     SPDX-License-Identifier: Apache-2.0
     ```
-    ex 2. LGE Proprietary License    
+- ex 2. LGE Proprietary License    
     ```
     /*
    * Copyright (c) 2020 LG Electronics Inc.

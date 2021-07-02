@@ -50,18 +50,18 @@ Software developers write copyrights and licenses according to the rules to be f
 💁 **How to write license**    
 SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]  
 
-- ex 1. Apche-2.0
-    ```
-    SPDX-License-Identifier: Apache-2.0
-    ```
+ex 1. Apche-2.0
+```
+SPDX-License-Identifier: Apache-2.0
+```
 
-- ex 2. LGE Proprietary License     
-    ```
-    /*    
-   * Copyright (c) 2020 LG Electronics Inc.    
-   * SPDX-License-Identifier: LicenseRef-LGE-Proprietary      
-   */       
-    ```
+ex 2. LGE Proprietary License     
+```
+/*    
+* Copyright (c) 2020 LG Electronics Inc.    
+* SPDX-License-Identifier: LicenseRef-LGE-Proprietary      
+*/       
+```
 
 ### 2. Add Open Source Software Package information file
 ⭐ This rule only applies if Open Source Software Package is included.

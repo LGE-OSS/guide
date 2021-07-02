@@ -34,9 +34,9 @@ sort: 1
 > In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 
 To ensure proper copyright and license writing in the source code, the following three rules must be observed.    
-1. Write the copyright and license on each file. : Copyright/License
-2. (Only with OSS Package) Add Open Source Software Package information file. : OSS Package info
-3. (Source code distribution only) Add license text file. : License text
+1. Write the copyright and license on each file. 
+2. (Only with OSS Package) Add Open Source Software Package information file.  
+3. (Source code distribution only) Add license text file.  
 
 ### 1. Write the copyright and license on each file
 Software developers write copyrights and licenses according to the rules to be followed on a case-by-case basis as follows:

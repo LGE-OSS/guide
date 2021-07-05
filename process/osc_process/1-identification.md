@@ -57,10 +57,8 @@ SPDX-License-Identifier: Apache-2.0
 
 ex 2. LGE Proprietary License     
 ```
-/*    
-* Copyright (c) 2020 LG Electronics Inc.    
-* SPDX-License-Identifier: LicenseRef-LGE-Proprietary      
-*/       
+Copyright (c) 2020 LG Electronics Inc.    
+SPDX-License-Identifier: LicenseRef-LGE-Proprietary       
 ```
 
 ### 2. Add Open Source Software Package information file

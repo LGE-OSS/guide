@@ -19,7 +19,7 @@ LG Electronics OSC\(Open Source Compliance\) process provides a detailed activit
 
 Step-by-step activities and requirements are as follows:
 
-- [Step 1. Identification](1-identification.md)
-- [Step 2. Approval](2-approval.md)
-- [Step 3. Notice & Verification](3-notice-and-verification.md)
-- [Step 4. Distribution](4-distribution.md)
+- [Step 1. Identification](1-identification)
+- [Step 2. Approval](2-approval)
+- [Step 3. Notice & Verification](3-notice-and-verification)
+- [Step 4. Distribution](4-distribution)

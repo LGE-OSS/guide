@@ -1,5 +1,4 @@
 ---
-sort: 1
 title: Copyright and license writing rules in source code
 ---
 

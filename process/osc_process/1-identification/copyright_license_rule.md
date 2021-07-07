@@ -1,44 +1,18 @@
 ---
 sort: 1
+title: Copyright and license writing rules in source code
 ---
 
-# Step 1. Identification
+# Copyright and license writing rules in source code
 
-1. The SW development team identifies open source and license to be used for software development, and designs software so as to prevent intellectual property leakage in consideration of the specific case terms of use of each open source license.
-   <br>
-
-2. The SW development team determines how to notify OSS when using open source in software for distribution.
-   <br>
-
-3. The SW development team complies with [copyright and license writing rules in source code](#rule).
-   <br>
-
-4. The SW development team and the team in charge of OSC identify open source and license through open source analysis.
-   The identification step and activities are as follows.
-
-```note
-- **Source Code analysis**
-    - This step identifies open source and its license by checking source code.
-    - We recommend [`FOSSLight Source Scanner`](https://github.com/fosslight/fosslight_source_scanner) tool for more efficient analyzing source code.
-- **Binary analysis**
-    - This step identifies open source that may be missing from source code analysis procedure by checking all binary files included in software.
-- **Dependency analysis**
-    - This step identifies open source and license in the dependency list in software development environment that supports dependency management.
-    - We recommend [`FOSSLight Dependency Scanner`](https://github.com/fosslight/fosslight_dependency_scanner) tool for more efficient analyzing dependency.
-```
-
-<br>
-
-## <a name="rule"></a> Note. Copyright and license writing rules in source code
-   
-> In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
+In order to easily and clearly identify what license is and to whom the copyright belongs, it is necessary to correctly write the copyright and the license in the source code.
 
 To ensure proper copyright and license writing in the source code, the following three rules must be observed.    
-1. Write the copyright and license on each file. 
-2. (Only with OSS Package) Add Open Source Software Package information file.  
-3. (Source code distribution only) Add license text file.  
+1. [Write the copyright and license on each file.](#-1-write-the-copyright-and-license-on-each-file)
+2. [(Only with OSS Package) Add Open Source Software Package information file.](#2-add-open-source-software-package-information-file)
+3. [(Source code distribution only) Add license text file.](#3-add-license-text-file)
 
-### 1. Write the copyright and license on each file
+## 1. Write the copyright and license on each file
 Software developers write copyrights and licenses according to the rules to be followed on a case-by-case basis as follows:
 
 | No  | Case | Rule |
@@ -50,7 +24,7 @@ Software developers write copyrights and licenses according to the rules to be f
 💁 **How to write license**    
 SPDX-License-Identifier: [[SPDX License Identifier](https://spdx.org/licenses/)]  
 
-ex 1. Apche-2.0
+ex 1. Apache-2.0
 ```
 SPDX-License-Identifier: Apache-2.0
 ```
@@ -61,8 +35,8 @@ Copyright (c) 2020 LG Electronics Inc.
 SPDX-License-Identifier: LicenseRef-LGE-Proprietary       
 ```
 
-### 2. Add Open Source Software Package information file
-⭐ This rule only applies if Open Source Software Package is included.
+## 2. Add Open Source Software Package information file
+[⭐ This rule only applies if Open Source Software Package is included.]
 
 Create a oss-pkg-info.yaml file (format : Yaml) and add it to the directory of the package, including the following information about the OSS Package. ex) oss-pkg-info.yaml    
 If a file (ex-requirements.txt, pom.xml) already containing such information is present in the OSS Package directory, it can be replaced with this file.
@@ -99,19 +73,11 @@ Open Source Software Package:
   comment : Script for build
 ```
 
-### 3. Add license text file
-⭐ This rule applies only when distributing source code.
+## 3. Add license text file
+[⭐ This rule applies only when distributing source code.]
 
 1. Creates a file representing the license of the Repository in the top directory of the project.
     - Download the license text file and change the file name to one of: LICENSE, LICENSE.md, LICENSE.txt, and NOTICE.
 2. Create a directory named LICENSES in the top directory of your project, and include the license text file of the license included in the project.
     - If the project includes open source software under multiple licenses, include all of license text files.
 
-
-<br>
-<br>
-
-```tip
-You can use the open source tools for analyzing open source efficiently.
-Please visit the [Tool](../../tool/osc_tool.md) page to learn more about open source tools.
-```

@@ -1,5 +1,6 @@
 ---
-sort: 2
+sort : 2
+title : 2. Approval
 ---
 
 # Step 2. Approval

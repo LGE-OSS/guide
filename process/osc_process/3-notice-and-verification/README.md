@@ -1,5 +1,6 @@
 ---
 sort: 3
+title : 3. Notice & Verification
 ---
 
 # Step 3. Notice & Verification

@@ -7,39 +7,60 @@ sort: 1
 For efficient open source compliance, there are many useful tools that automatically analyze open source license on source codes, as well as tools that help manage open source for each project.
 We introduce open source tools that anyone can use freely.
 
-<br>
+### Tools for OSC Process
+<img src="../assets/docs/tool_about.png" width="75%" title="Tools for OSC Process">
 
-### Source Code Scanning Tool
+<table>
+  <thead>
+    <tr>
+      <th>Activities<br/>of OSC Process </th>
+      <th>Tool Name</th>
+      <th>Description & Guide</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Comply with<br/>Copyright & License<br/>writing rules</b></td>
+      <td><a href="https://github.com/fosslight/fosslight_reuse"><b>FOSSLight REUSE</b></a></td>
+      <td>Comply with the copyright/license writing rules in the source code.
+      <br /><a href="https://fosslight.org/fosslight-guide-en/scanner/1_reuse.html">🔗Guide Link</a></td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Source Code Analysis</b></td>
+      <td><a href="https://github.com/fosslight/fosslight_source_scanner"><b>FOSSLight Source Scanner</b></a></td>
+      <td>Using ScanCode, detect the copyright and license phrases contained in the file.
+      <br /><a href="https://fosslight.org/fosslight-guide-en/scanner/2_source.html">🔗Guide Link</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.fossology.org/"><b>FOSSology</b></a></td>
+      <td>Web Service to detect Copyright and License included in the source code
+      <br /><a href="https://fossology.github.io/">🔗Guide Link</a></td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Dependency Analysis</b></td>
+      <td><a href="https://github.com/fosslight/fosslight_dependency_scanner"><b>FOSSLight Dependency Scanner</b></a></td>
+      <td>When building or installing, it finds the imported dependency and detects information such as Version, License, etc. of Package
+      <br /><a href="https://fosslight.org/fosslight-guide-en/scanner/3_dependency.html">🔗Guide Link</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://oss-review-toolkit.org/"><b>OSS Review Toolkit</b></a></td>
+      <td>A suite of tools to assist with reviewing Open Source Software dependencies.
+      <br /><a href="https://github.com/oss-review-toolkit/ort">🔗Guide Link</a></td>
+    </tr>
+    <tr>
+      <td><b>Binary Analysis</b></td>
+      <td><a href="https://github.com/fosslight/fosslight_binary_scanner"><b>FOSSLight Binary Scanner</b></a></td>
+      <td>Searches for a binary and outputs OSS information if there is an identical or similar binary from the Binary DB.
+      <br /><a href="https://fosslight.org/fosslight-guide-en/scanner/4_binary.html">🔗Guide Link</a></td>
+    </tr>
+  </tbody>
+</table>
 
-| Name                                                                     | Repository                                                                                         | LGE Guide                                                                                          |
-| :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
-| [FOSSology](https://www.fossology.org/)                                  | [https://github.com/fossology/fossology](https://github.com/fossology/fossology)                   | [https://oss.lge.com/fossology-guide](https://oss.lge.com/fossology-guide)                         |
-| [Scancode](https://scancode-toolkit.readthedocs.io/en/latest/index.html) | [https://github.com/nexB/scancode-toolkit](https://github.com/nexB/scancode-toolkit)               | TO BE                                                                                              |
-| [👍**FOSSLight Source Scanner**](https://github.com/fosslight/fosslight_source_scanner)    | [**https://github.com/fosslight/fosslight_source_scanner**](https://github.com/fosslight/fosslight_source_scanner) | [**https://github.com/fosslight/fosslight_source_scanner**](https://github.com/fosslight/fosslight_source_scanner/blob/main/docs/README_Kor.md) |
-
-<br>
-
-### Dependency Scanning Tool
-
-| Name                                                                          | Repository                                                                                                 | LGE Guide                                                                                                  |
-| :---------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| [Fossa](https://fossa.com/)                                                   | [https://github.com/fossas/fossa-cli](https://github.com/fossas/fossa-cli)                                 | -                                                                                                          |
-| [OSS Review Toolkit](https://oss-review-toolkit.org/)                         | [https://github.com/oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort)                     | [https://oss.lge.com/oss-review-toolkit-guide](https://oss.lge.com/oss-review-toolkit-guide)               |
-| [**👍FOSSLight Dependency Scanner**](https://github.com/fosslight/fosslight_dependency_scanner) | [**https://github.com/fosslight/fosslight_dependency_scanner**](https://github.com/fosslight/fosslight_dependency_scanner) | [**https://github.com/fosslight/fosslight_dependency_scanner**](https://github.com/fosslight/fosslight_dependency_scanner/blob/main/docs/user-guide_Kor.md) |
-
-<br>
+<br />
 
 ### Open Source Management Tool
 
-| Name                                                  | Repository                                                                             | LGE Guide                                                                                    |
-| :---------------------------------------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-| [**👍FOSSLight**](https://fosslight.org/)               | [**https://github.com/fosslight/fosslight**](https://github.com/fosslight/fosslight)   | [**https://fosslight.org/fosslight-guide**](https://fosslight.org/fosslight-guide)           |
-| [SW360](https://github.com/eclipse/sw360)             | [https://github.com/eclipse/sw360](https://github.com/eclipse/sw360)                   | -                                                                                            |
-
-<br>
-
-### Other useful Tool
-
-| Name                             | Repository                                                               | LGE Guide |
-| :------------------------------- | :----------------------------------------------------------------------- | :-------- |
-| [reuse](https://reuse.software/) | [https://github.com/fsfe/reuse-tool](https://github.com/fsfe/reuse-tool) | -         |
+| Tool Name                                                  | Description & Guide  |                                                                         
+| :---------------------------------------------------- | :----------------------------------------- |
+| [👍**FOSSLight Hub**](https://fosslight.org/)             | FOSSLight Hub helps you use the open source software compliantly and securely by managing open source, license and also vulnerability. Also it can process the OSC (Open Source Compliance) process by managing BOM for each project and track issues on open source license obligations and vulnerabilities.<br/>[🔗Guide Link](https://fosslight.org/fosslight-guide)           |
+| [SW360](https://www.eclipse.org/sw360/)             | SW360 provides both a web application and a repository to collect, organize and make available information about software components.<br/>[🔗Guide Link](https://github.com/eclipse/sw360)                   | 

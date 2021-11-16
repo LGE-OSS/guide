@@ -4,7 +4,7 @@ sort: 1
 
 # OSPO
 
-**OSPO** \(Open Source Program Office\) means a center organization that manages open source and reduce open source compliance rish in the company. It can play a role to build the overall open source strategy of the company such as auditing and constituting other policies on the use and distribution of open source, training for the software developers in the company, spreading an open source culture and activating participation in open source community.
+**OSPO** \(Open Source Program Office\) means a center organization that manages open source and reduce open source compliance risk in the company. It can play a role to build the overall open source strategy of the company such as auditing and constituting other policies on the use and distribution of open source, training for the software developers in the company, spreading an open source culture and activating participation in open source community.
 
 <br>
 

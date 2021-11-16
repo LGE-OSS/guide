@@ -21,7 +21,7 @@ We introduce open source tools that anyone can use freely.
   <tbody>
     <tr>
       <td><b>Comply with<br/>Copyright & License<br/>writing rules</b></td>
-      <td><a href="https://github.com/fosslight/fosslight_reuse"><b>FOSSLight REUSE</b></a></td>
+      <td><a href="https://github.com/fosslight/fosslight_reuse"><b>FOSSLight Reuse</b></a></td>
       <td>Comply with the copyright/license writing rules in the source code.
       <br /><a href="https://fosslight.org/fosslight-guide-en/scanner/1_reuse.html">🔗Guide Link</a></td>
     </tr>

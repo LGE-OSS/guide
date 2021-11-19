@@ -33,8 +33,7 @@ We introduce open source tools that anyone can use freely.
     </tr>
     <tr>
       <td><a href="https://www.fossology.org/"><b>FOSSology</b></a></td>
-      <td>Web Service to detect Copyright and License included in the source code
-      <br /><a href="https://fossology.github.io/">🔗Guide Link</a></td>
+      <td>Web Service to detect Copyright and License included in the source code</td>
     </tr>
     <tr>
       <td rowspan=2><b>Dependency Analysis</b></td>
@@ -44,8 +43,7 @@ We introduce open source tools that anyone can use freely.
     </tr>
     <tr>
       <td><a href="https://oss-review-toolkit.org/"><b>OSS Review Toolkit</b></a></td>
-      <td>A suite of tools to assist with reviewing Open Source Software dependencies.
-      <br /><a href="https://github.com/oss-review-toolkit/ort">🔗Guide Link</a></td>
+      <td>A suite of tools to assist with reviewing Open Source Software dependencies.</td>
     </tr>
     <tr>
       <td><b>Binary Analysis</b></td>
@@ -63,4 +61,4 @@ We introduce open source tools that anyone can use freely.
 | Tool Name                                                  | Description & Guide  |                                                                         
 | :---------------------------------------------------- | :----------------------------------------- |
 | [👍**FOSSLight Hub**](https://fosslight.org/)             | FOSSLight Hub helps you use the open source software compliantly and securely by managing open source, license and also vulnerability. Also it can process the OSC (Open Source Compliance) process by managing BOM for each project and track issues on open source license obligations and vulnerabilities.<br/>[🔗Guide Link](https://fosslight.org/fosslight-guide)           |
-| [SW360](https://www.eclipse.org/sw360/)             | SW360 provides both a web application and a repository to collect, organize and make available information about software components.<br/>[🔗Guide Link](https://github.com/eclipse/sw360)                   | 
+| [SW360](https://www.eclipse.org/sw360/)             | SW360 provides both a web application and a repository to collect, organize and make available information about software components.                  | 

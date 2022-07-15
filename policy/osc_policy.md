@@ -44,9 +44,9 @@ LG Electronics open source policy is configured as shown in below.
     <tr>
       <td style="text-align:left">
         <p>Open Source</p>
-        <p>Contribution Policy</p>
+        <p>Release/Contribution Policy</p>
       </td>
-      <td style="text-align:left">The policy to be adhered when contributing software developed by LGE to open source communities.</td>
+      <td style="text-align:left">The policy to be adhered when releasing or contributing software developed by LGE as an open source.</td>
     </tr>
     <tr>
       <td style="text-align:left">
